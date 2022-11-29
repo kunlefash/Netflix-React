@@ -41,7 +41,6 @@ export default function Featured({ type }) {
             <PlayArrow />
             <span>Play</span>
           </button>
-
           <button className="more">
             <InfoOutlined />
             <span>Info</span>

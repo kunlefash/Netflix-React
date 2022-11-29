@@ -26,7 +26,6 @@ export default function Register() {
       <div className="container">
         <h1>Unlimited moviese, Tv shows and more.</h1>
         <h2>Watch Anywhere, cancel anytime.</h2>
-
         <p>
           Ready to watch? Enter your email to create or restart your membership.
         </p>
