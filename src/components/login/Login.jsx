@@ -14,7 +14,7 @@ export default function Login() {
           <input type="password" placeholder="Password" />
           <button className="loginButton">Sign In</button>
           <span>
-            New to Netflix? <b>Sign Up</b>
+            New to Netflix? <b>Sign Up Here</b>
           </span>
           <small>
             This page is protected by Google reCAPTCHA to ensure you're not a
