@@ -1,3 +1,4 @@
+import React from "react";
 import "./home.scss";
 import Navbar from "../navbar/Navbar";
 import List from "../navbar/list/List";

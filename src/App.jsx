@@ -5,7 +5,6 @@ import Login from "./components/login/Login";
 import Register from "./components/register/Register";
 import Watch from "./components/watch/Watch";
 
-
 function App() {
   <div className='App'>
     <Routes>

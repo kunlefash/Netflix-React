@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import "./list.scss";
 import {
   ArrowBackIosOutlined,
@@ -13,7 +13,7 @@ export default function List() {
 
   const handleClick = (direction) => {
     setIsMoved(true);
-    let distance = listRef.current.getBoundingClientRect().x - 50;
+    const distance = listRef.current.getBoundingClientRect().x - 50;
     if (direction === "left" && slideNumber > 0) {
       setSlideNumber(slideNumber - 1);
       listRef.current.style.transform = `translateX(${230 + distance}px)`;

@@ -1,3 +1,4 @@
+import React from "react";
 import { InfoOutlined, PlayArrow } from "@material-ui/icons";
 import "./featured.scss";
 

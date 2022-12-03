@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import {
   Add,
   PlayArrow,
@@ -34,7 +34,7 @@ export default function Listitem({ index }) {
             </div>
             <div className="itemInfoTop">
               <span>1 hour 14minutes</span>
-              <span className="Limit">+16</span>
+              <span className="Limit">16+</span>
               <span>2000</span>
             </div>
             <div className="description">
