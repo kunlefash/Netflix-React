@@ -3,24 +3,17 @@
     height: 100vh;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%),
      url("https://cdn.hipwallpaper.com/m/51/91/GxJwHk.jpg");
-
      background-size: cover;
      position: relative;
-
-
     .top{
         .wrapper{
         padding: 20px 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-
         .logo{
             height: 40px;
-            
         }
-
         .loginButton{
             background-color: red;
             border: none;
@@ -30,12 +23,7 @@
             font-size: 16px;
             font-weight: 500;
             cursor: pointer;
-
-
-
         }
-
-
     }
 }
     .container{
@@ -51,7 +39,6 @@
         color: white;
         h1{
             font-size: 50px;
-
         }
         h2{
             margin: 20px;
@@ -68,13 +55,11 @@
             margin-top: 20px;
             height: 50px;
             border-radius: 5px;
-
             input{
                 flex: 9;
                 height: 100%;
                 border: none;
                 padding: 0 10px;
-
             }
             .registerButton{
                 flex: 3;
@@ -84,10 +69,7 @@
                 color: white;
                 font-size: 22px;
                 cursor: pointer;
-
             }
-
         }
-
     }
 }
